@@ -1,56 +1,56 @@
-* {max-width: 1000px;
-    margin:auto;
-    font-family: Arial, Helvetica, sans-serif;}
+body {text-align: center;}
 
-#logo {width: 15%;
-      display: flex;
-      justify-content: center;}
+header img {width: 200px;}
+header p {
+    color:rgb(13, 96, 68);
+    font-size: 1em;
+    border-top: 0.12em solid rgb(255, 196, 107);
+    background-color: rgba(255, 231, 72, 0.1);
+    padding:1.4em;
+    }
 
-#subtitle {display: flex;
-    justify-content: center;
-    text-align: center;
-    color:rgb(16, 86, 65);
-    margin-top: 1.8em;
-    font-size:0.7em;
-    background-color: rgba(248, 203, 88, 0.1);
-    border-top: 0.1em solid rgb(248, 203, 88);
-    padding: 1.5em;}
+main {width: 60em;
+    margin: auto;
+    }
 
-h1 {display:flex;
-    text-align: center;
-    padding-top: 1.5em;
-    padding-bottom: 1.3em;
-    max-width: 70%;
-}
+h1 {font-size: 2.2em;
+    width:60%;
+    margin: auto;
+    padding-top:1em;
+    padding-bottom:0.7em}
 
-#text {margin-right: 6em;
-        width: 85%;}
+#picture p{text-align: left;
+        font-size: 1.2em;
+        padding-left: 2em;
+        padding-right: 2em;}
 
-#focaccia {display: flex;
-            align-items: center;
-            border-radius: 5%;
-            width:90%;
-            }
+#picture img {width: 100%;
+            border-radius: 25px;
+            box-shadow: 4px 4px 8px 0px rgba(125, 125, 125, 0.2);}
+figcaption {padding: 1em;
+            font-size: 1.1em;
+            color: rgb(112, 112, 112);}
+aside {text-align: left;
+        padding-left: 2em;
+        margin-left: 2.3em;
+        margin-bottom: 4em;
+        color: rgb(197, 103, 22);
+        border-left: 0.12em solid rgb(255, 196, 107);}
 
-figcaption {display: flex;
-            justify-content: center;
-            color:rgb(148, 148, 133)}
+article {text-align: left;
+        font-size: 1.1em;
+        padding-left: 1.3em;}
 
-#featured {margin:4em;
-            color: rgb(216, 119, 0);
-            padding-left: 2em;
-            border-left: 0.1em solid rgb(248, 203, 88)}
+article h2 {border-bottom: 0.06em solid rgb(53, 192, 199);
+            padding-bottom: 1.1em;}
 
-article {padding-left:2.5em}
-
-#lists   {line-height: 2em;}
-
-.titles {margin-top: 2em;
-        margin-bottom: 1em;
-        margin-left: 0em;
-        padding-bottom: 1.6em;
-        border-bottom: 0.05em solid rgb(63, 147, 162)}
-
-#listn  {padding-left: 0}
+.list {line-height: 1.7em;}
 
 
+#flist ol {padding-left: 2em;}
+#flist p {padding-left: 2em}
+footer {width: 60%;
+    padding-left: 5em;
+    font-size: 1.1em;
+    margin: auto;
+    text-align: left;}
