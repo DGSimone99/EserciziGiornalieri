@@ -55,10 +55,6 @@ aside {
     font-size: 1.45em
 }
 
-aside {
-    padding-bottom: 2em;
-}
-
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 article {
@@ -74,12 +70,18 @@ h1 {
 
 #author {
     color: grey;
+    font-size: 0.8em;
 }
 
 #intro {
     padding: 1.5em 0;
 }
 
+article code {
+    background-color: rgba(178, 178, 178, 0.411);
+    border: solid 0.1em grey;
+    border-radius: 10px;
+}
 
 article ul li {
     list-style-type: disc;
@@ -92,14 +94,19 @@ ol li {
 }
 
 iframe {
-    width: 75vw;
+    width: 80vw;
     height: 10em;
     border-radius: 35px;
     padding: 1em 0em;
-    margin-left: 0.7em;
+    margin-left: auto;
 }
 
 /* TABELLE */
+
+table {
+    border-bottom: solid 0.1em rgb(74, 92, 203);
+    margin-bottom: 1.5em;
+}
 
 table caption {
     font-weight: bold;
@@ -113,6 +120,10 @@ thead {
 
 thead th {
     padding: 0.5em 1em;
+}
+
+th {
+    vertical-align: bottom;
 }
 
 tbody {
@@ -136,7 +147,7 @@ th {
 /* FORM */
 
 #form {
-    height: 11em;
+    height: 13em;
     background-color: rgba(128, 128, 128, 0.279);
 }
 
@@ -152,11 +163,43 @@ th {
     padding-left: 0.8em;
 }
 
-form {
-    text-align: center;
+input {
+    margin-top: 1em;
+    margin-left: 0.8em;
+    margin-right: 0;
+    font-size: 1em;
+    width: 60%;
+    height: 1.5em;
+    border: none;
+    border-bottom: dashed grey 0.1em;
+}
+
+button {
+    margin-top: 1em;
+    margin-left: 0;
+    font-size: 1em;
+    width: 22vw;
+    height: 1.4em;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(81, 126, 249);
+    border: none;
 }
 
 /* ELEMENTI NELL' ASIDE */
+aside {
+    padding-bottom: 2em;
+}
+
+.date {
+    text-align: right;
+    font-size: 0.8em;
+}
+
+aside a {
+    font-weight: bold;
+}
+
 aside h2 {
     font-weight: bold;
     font-size: 1.5em;
@@ -166,6 +209,7 @@ aside h2 {
 
 .asi {
     background-color: rgba(128, 128, 128, 0.279);
+    border: 0.06em solid rgb(172, 172, 172);
     margin: 0em 0.8em;
     height: 6em;
     padding: 1em;
@@ -173,16 +217,23 @@ aside h2 {
 
 /* FOOTER */
 footer {
-    background: linear-gradient(90deg, rgb(0, 63, 88) 0%, rgb(74, 129, 94) 35%, rgb(39, 114, 101) 100%);
+    background: linear-gradient(0deg, rgb(0, 18, 32) 0%, rgb(0, 116, 142) 100%, rgb(0, 161, 173) 100%);
     color: white;
-    padding: 1em 0;
+    padding: 0.8em 0;
     margin-bottom: 2em;
     width: 90vw;
     margin: auto;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: center;
+    box-shadow: -1px 2px 6px 0px rgba(0, 0, 0, 0.75);
 }
 
 footer address {
-    padding: 1em;
+    padding: 0.6em;
+    line-height: 1.4em;
+}
+
+footer a {
+    color: rgb(252, 78, 255);
+    font-weight: bold;
 }
