@@ -1,19 +1,20 @@
 /* IMPOSTAZIONI GENERALI */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0;0,700;1,500;1,700&family=Roboto:ital,wght@0,400;1,500;1,700&display=swap');
+
 html {
-    margin:auto;
-    background-image:url(../img/sfondo.png);
+    margin: auto;
+    background-image: url(../img/sfondo.png);
     font-family: "Poppins", sans-serif;
 }
 
 /* HEADER */
 header {
     text-align: center;
-    height:350px;
+    height: 350px;
     width: 90vw;
     margin: 1em auto;
-    background: linear-gradient(0deg, rgb(0, 103, 137) 20%, rgba(0,149,178,1) 68%, rgba(0,147,176,1) 100%);
-    box-shadow: -1px 2px 6px 0px rgba(0,0,0,0.75);
+    background: linear-gradient(0deg, rgb(0, 103, 137) 20%, rgba(0, 149, 178, 1) 68%, rgba(0, 147, 176, 1) 100%);
+    box-shadow: -1px 2px 6px 0px rgba(0, 0, 0, 0.75);
 }
 
 header div {
@@ -25,6 +26,7 @@ header div {
 header img {
     width: 320px;
 }
+
 header p {
     padding: 1.3em 0 1.1em 0;
     font-size: 1.4em;
@@ -43,20 +45,25 @@ strong {
     color: rgb(155, 0, 155);
 }
 
-main, aside {
+main,
+aside {
     width: 90vw;
-    margin:auto;
+    margin: auto;
     background-color: white;
-    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.75);
     line-height: 1.5em;
     font-size: 1.45em
 }
 
-aside {padding-bottom: 2em;}
+aside {
+    padding-bottom: 2em;
+}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
-article {padding: 2.5em 0.9em;}
+article {
+    padding: 2.5em 0.9em;
+}
 
 h1 {
     font-size: 1.8em;
@@ -65,9 +72,13 @@ h1 {
     padding-bottom: 0.6em;
 }
 
-#author {color: grey;}
+#author {
+    color: grey;
+}
 
-#intro {padding: 1.5em 0;}
+#intro {
+    padding: 1.5em 0;
+}
 
 
 article ul li {
@@ -87,28 +98,40 @@ iframe {
     padding: 1em 0em;
     margin-left: 0.7em;
 }
-    
+
 /* TABELLE */
 
-table
+table caption {
+    font-weight: bold;
+    font-style: italic;
+}
 
-caption {font-weight: bold;
-                font-style: italic;}
 thead {
     background-color: rgb(74, 92, 203);
     color: white;
 }
 
-thead th {padding: 0.5em 1em;}
-tbody {text-align: center;}
-tbody td {padding: 1em;}
+thead th {
+    padding: 0.5em 1em;
+}
+
+tbody {
+    text-align: center;
+}
+
+tbody td {
+    padding: 1em;
+}
+
 tbody .tab {
     background-color: rgba(223, 221, 218, 0.4);
     border-top: solid rgba(198, 198, 198, 0.543);
     border-bottom: solid rgba(198, 198, 198, 0.543)
 }
 
-th {border-left: 0.01em solid white}
+th {
+    border-left: 0.01em solid white
+}
 
 /* FORM */
 
@@ -125,8 +148,13 @@ th {border-left: 0.01em solid white}
     font-weight: bold;
 }
 
-#form p {padding-left: 0.8em;}
-form {text-align: center;}
+#form p {
+    padding-left: 0.8em;
+}
+
+form {
+    text-align: center;
+}
 
 /* ELEMENTI NELL' ASIDE */
 aside h2 {
@@ -155,4 +183,6 @@ footer {
     text-align: center;
 }
 
-footer address {padding: 1em;}
+footer address {
+    padding: 1em;
+}
