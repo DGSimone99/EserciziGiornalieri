@@ -12,9 +12,14 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let Esercizio1 = "string = è una linea di testo che richiede le virgolette,\nnumerico = un valore numerico che può essere intero (int) o decimale (float). Se il valore viene messo tra virgolette diventa una string\nbooleano = può essere solo true (valore=1) o false (valore=0)\nnull = valore vuoto\nundefined = valore non assegnato"
-console.log(Esercizio1)
+console.log("Esercizio 1: I principali datatype in JavaScript sono:");
+console.log("String = permette di scrivere del semplice testo racchiuso tra virgolette");
+console.log("Numerico = può essere intero (int) o decimale (float) e può essere composto solo da numeri");
+console.log("Booleano = è composto da true (valore 1) o false (valore 0)");
+console.log("Null = è intenzionalmente privo di un valore");
+console.log("Undefined = è un valore non assegnato");
 
+console.log("-------------------------------------------------------------------------------------------------")
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
@@ -22,24 +27,31 @@ console.log(Esercizio1)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let myName = "Simone";
-console.log(myName)
+console.log("Esercizio 2: crare una variabile <myName> e assegnarle il mio nome come valore: " + (myName));
+
+console.log("-------------------------------------------------------------------------------------------------");
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let a = 12;
-let b = 20;
-console.log(a+b)
+let num1 = 12;
+let num2 = 20;
+let sum = num1 + num2;
+console.log("Esercizio 3: designare i valori <num1> " + num1 + " e <num2> " + num2 + " e sommarli: " + sum);
+
+console.log("-------------------------------------------------------------------------------------------------");
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let x = 12
-console.log(x)
+let x = 12;
+console.log("Esercizio 3: creare una variabile x e assegnarle il numero: " + x);
+
+console.log("-------------------------------------------------------------------------------------------------");
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
@@ -48,13 +60,15 @@ console.log(x)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 myName = "Di Giorgio"
-console.log(myName)
+console.log("Esercizio 5: riassegnare un nuovo valore alla variabile <myName> con il mio cognome: " + myName)
 
-const myName2 = "Simone"
+/* const myName2 = "Simone"
 /* console.log(myName2)
 myName2 = "Di Giorgio"
-console.log(myName2) */
 console.log(myName2)
+console.log(myName2) */
+
+console.log("-------------------------------------------------------------------------------------------------");
 
 
 /* ESERCIZIO 6
@@ -62,7 +76,10 @@ console.log(myName2)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log(4 - x)
+let exe6 = 4-x;
+console.log("Esercizio 6: eseguire una sottrazione tra i numeri 4 e la variabile <x>: " + exe6);
+
+console.log("-------------------------------------------------------------------------------------------------");
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -73,6 +90,5 @@ console.log(4 - x)
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name1 = "john"
 let name2 = "John"
-console.log(name1 == name2)
-
-console.log(name1.toLowerCase == name2.toLowerCase)
+console.log("Esercizio 7: creare la variabile <name1>: " + name1 + "e la variabile <name2>: " + name2 + "e dimostrare che sono diversi: " + (name1 == name2))
+console.log("Esercizio extra: verificare che la loro uguaglianza diventi true se entrambe venogno trasformate in lowercase: " + (name1.toLowerCase == name2.toLowerCase))
