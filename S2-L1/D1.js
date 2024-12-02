@@ -62,11 +62,11 @@ console.log("-------------------------------------------------------------------
 myName = "Di Giorgio"
 console.log("Esercizio 5: riassegnare un nuovo valore alla variabile <myName> con il mio cognome: " + myName)
 
-/* const myName2 = "Simone"
-/* console.log(myName2)
-myName2 = "Di Giorgio"
-console.log(myName2)
+const myName2 = "Simone"
+console.log("Variabile creata con il costrutto const: " + myName2)
+/* myName2 = "Di Giorgio"
 console.log(myName2) */
+console.log("Dimostrare l'impossibilità di riassegnare un valore a un costrutto const: Uncaught TypeError: Assignment to constant variable.")
 
 console.log("-------------------------------------------------------------------------------------------------");
 
@@ -90,5 +90,5 @@ console.log("-------------------------------------------------------------------
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name1 = "john"
 let name2 = "John"
-console.log("Esercizio 7: creare la variabile <name1>: " + name1 + "e la variabile <name2>: " + name2 + "e dimostrare che sono diversi: " + (name1 == name2))
+console.log("Esercizio 7: creare la variabile <name1>: " + name1 + " e la variabile <name2>: " + name2 + " e dimostrare che sono diversi: " + (name1 == name2))
 console.log("Esercizio extra: verificare che la loro uguaglianza diventi true se entrambe venogno trasformate in lowercase: " + (name1.toLowerCase == name2.toLowerCase))
