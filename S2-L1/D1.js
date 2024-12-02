@@ -39,6 +39,7 @@ console.log(a+b)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let x = 12
+console.log(x)
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
