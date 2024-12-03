@@ -10,6 +10,9 @@ let num2 = 50;
 if (num1 > num2) {
   console.log(num1 + " è maggiore di " + num2)
 }
+else if (num1 == num2) {
+  console.log(num1 + " è uguale a " + num2)
+}
 else {
   console.log(num2 + " è maggiore di " + num1)
 };
@@ -237,7 +240,7 @@ console.log("___________________________________________________________________
 console.log("Esercizio 14: Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.");
 
 myArr = [""];
-myArr.splice(0,10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+myArr.splice(0, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 console.log(myArr);
 
 console.log("_________________________________________________________________________________________________");
