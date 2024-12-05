@@ -30,7 +30,7 @@ function crazySum(x, y) {
     }
 }
 
-console.log("Dati due numeri diversi, 2 e 5, la loro somma è: " + crazySum(2, 2))
+console.log("Dati due numeri diversi, 2 e 5, la loro somma è: " + crazySum(2, 5))
 
 console.log("Dati due numeri uguali, 2 e 2, la loro somma è moltiplicata x 3: " + crazySum(2, 2))
 
