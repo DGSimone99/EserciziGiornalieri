@@ -18,16 +18,16 @@ console.log(func1("Ciao", " a tutti"))
 */
 console.log("Esercizio 2")
 
-let randArr = [Math.floor(Math.random()*101), Math.floor(Math.random()*101), Math.floor(Math.random()*101), Math.floor(Math.random()*101), Math.floor(Math.random()*101), Math.floor(Math.random()*101), Math.floor(Math.random()*101), Math.floor(Math.random()*101), Math.floor(Math.random()*101), Math.floor(Math.random()*101)]
-console.log(randArr)
-
-function func2() {
-  randArr.forEach(num => {
-    console.log(num)
-  });
-}
+function func2(x) {
+  let randArr = []
+  for(let i = 0; i < x; i++) {
+    let numArr = Math.floor(Math.random()*101);
+    randArr.push(numArr)
+  }
+  return randArr}
 
 func2()
+console.log(func2(10))
 
 /* ESERCIZIO 3 (filter)
   Scrivi una funzione per ricavare solamente i valori PARI da un array composto da soli valori numerici
