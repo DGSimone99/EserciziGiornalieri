@@ -10,11 +10,11 @@ body {
 }
 
 h1 {
-    background-color: #0c0b1d;
+    background-color: #15132e;
     margin: 0;
     padding: 0.2em;
     font-size: 4em;
-    border-bottom: solid #ebebeb;
+    text-transform: uppercase;
 }
 
 #container {
